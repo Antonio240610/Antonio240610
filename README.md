@@ -23,7 +23,7 @@ proyectos propios y crear productos digitales.
 
 ## 🗺️ Proyectos destacados
 
-_(pendiente — cuando tengas proyectos listos aquí van con link)_
+_(ya voy)_
 
 ## 📜 Contacto
 

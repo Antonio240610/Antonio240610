@@ -1,4 +1,4 @@
-![Banner](./assets/nordic-banner.svg)
+![Banner](./assets/nordic-wave-banner.svg)
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=200&section=header&text=Antonio%20Papadopolo&fontSize=40&fontColor=ffffff&animation=fadeIn)
 

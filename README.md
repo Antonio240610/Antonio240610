@@ -1,7 +1,5 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=200&section=header&text=Antonio%20Papadopolo&fontSize=40&fontColor=ffffff&animation=fadeIn)
 
-![Typing](https://readme-typing-svg.demolab.com/?font=Cinzel&color=8B9DC3&background=00000000&lines=Sk%C3%A1l%21+Soy+Antonio;Forjando+c%C3%B3digo+como+Mjolnir)
-
 # ⚔️ Antonio Papadopolo Castellanos
 
 Estudiante de 3er año de Ingeniería en Sistemas | Nivel Junior

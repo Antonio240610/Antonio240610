@@ -1,4 +1,4 @@
-<img src="./assets/header.svg" width="1500">
+<img src="./assets/header.svg" width="2000">
 
 # ⚔️ Antonio Papadopolo Castellanos
 

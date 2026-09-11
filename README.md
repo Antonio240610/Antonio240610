@@ -4,6 +4,8 @@
 
 <img src="./assets/current_and_techs.svg" width="100%">
 
+<img src="./dist/github-snake.svg" width="100%">
+
 ## 🗺️ Proyectos destacados
 
 _(ya voy)_

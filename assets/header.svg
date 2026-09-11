@@ -36,6 +36,24 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1" /><defs
+     <style id="runeSwapStyle"><![CDATA[
+  #g53, #g71 {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  #g53 { animation-name: showRunes; }
+  #g71 { animation-name: showText; opacity: 0; }
+  @keyframes showRunes {
+    0%, 40%   { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  @keyframes showText {
+    0%, 40%   { opacity: 0; }
+    50%, 90%  { opacity: 1; }
+    100%      { opacity: 0; }
+  }
+]]></style>
      id="defs1"><linearGradient
        id="linearGradient108"
        inkscape:collect="always"><stop

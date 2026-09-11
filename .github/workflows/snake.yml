@@ -1,0 +1,39 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # se ejecuta todos los días a medianoche
+  workflow_dispatch:        # también puedes correrla manualmente
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: platane/snk@v3
+        id: snake
+        with:
+          github_user_name: Antonio240610
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-snake
+          path: dist/
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        if: false  # no lo necesitamos, dejamos push directo abajo
+
+      - name: Push snake svg to output branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -f dist/
+          git commit -m "Generate snake" || echo "No changes"
+          git push

@@ -36,24 +36,63 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1" /><defs
-     id="defs1"><style id="runeSwapStyle"><![CDATA[
-  #g53, #g71 {
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+     id="defs1">
+     
+     <style id="revealStyle"><![CDATA[
+  /* Runas: pulso rápido (aparecen y desaparecen), en loop cada 6.0s */
+  #text2 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.0s; }
+  #text3 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.12s; }
+  #text4 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.24s; }
+  #text5 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.36s; }
+  #text40 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.48s; }
+  #text41 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.6s; }
+  #text42 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.72s; }
+  #text43 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.84s; }
+  #text45 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 0.96s; }
+  #text44 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.08s; }
+  #text46 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.2s; }
+  #text51 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.32s; }
+  #text47 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.44s; }
+  #text50 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.56s; }
+  #text48 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.68s; }
+  #text52 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.8s; }
+  #text49 { animation: runaLoop 6.0s ease-in-out infinite; animation-delay: 1.92s; }
+
+  /* Letras: aparecen, se sostienen, desaparecen, en el mismo loop de 6.0s */
+  #text53 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 0.48s; }
+  #text53-2 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 0.6s; }
+  #text53-2-8 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 0.72s; }
+  #text64-8 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 0.84s; }
+  #text53-2-8-5-3 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 0.96s; }
+  #text53-2-8-5-3-3 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.08s; }
+  #text53-2-8-5-3-3-3-4-0-8-5 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.2s; }
+  #text66 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.32s; }
+  #text67 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.44s; }
+  #text53-2-8-5-3-3-3-4-05 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.56s; }
+  #text53-2-8-5-6 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.68s; }
+  #text53-2-8-5-3-4 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.8s; }
+  #text64 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 1.92s; }
+  #text53-2-8-5-3-3-3-4 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 2.04s; }
+  #text53-2-8-5-3-3-6-0 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 2.16s; }
+  #text53-2-8-5-3-3-3-4-0 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 2.28s; }
+  #text53-2-8-5-3-3-3-4-0-8 { animation: textoLoop 6.0s ease-in-out infinite; animation-delay: 2.4s; }
+
+  @keyframes runaLoop {
+    0%    { opacity: 0; }
+    6%    { opacity: 1; }
+    12%   { opacity: 0; }
+    100%  { opacity: 0; }
   }
-  #g53 { animation-name: showRunes; }
-  #g71 { animation-name: showText; opacity: 0; }
-  @keyframes showRunes {
-    0%, 40%   { opacity: 1; }
-    50%, 100% { opacity: 0; }
+  @keyframes textoLoop {
+    0%    { opacity: 0; }
+    6%    { opacity: 1; }
+    12%   { opacity: 1; }
+    70%   { opacity: 1; }
+    100%  { opacity: 0; }
   }
-  @keyframes showText {
-    0%, 40%   { opacity: 0; }
-    50%, 90%  { opacity: 1; }
-    100%      { opacity: 0; }
-  }
-]]><linearGradient
+]]></style>
+
+     <linearGradient
        id="linearGradient108"
        inkscape:collect="always"><stop
          style="stop-color:#91cbc4;stop-opacity:1;"

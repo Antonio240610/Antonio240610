@@ -1,10 +1,7 @@
 <img src="./assets/header.svg" width="100%">
 
-# ⚔️ Antonio Papadopolo Castellanos
+<img src="./assets/sumary.svg" width="100%">
 
-Estudiante de 3er año de Ingeniería en Sistemas | Nivel Junior
-Buscando oportunidades como Desarrollador de Software para forjar
-proyectos propios y crear productos digitales.
 
 ## 🛡️ Actualmente
 

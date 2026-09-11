@@ -1,4 +1,4 @@
-![Header](./assets/header.svg)
+![Header](./assets/header.svg) <img src="./assets/header.svg" width="900">
 
 # ⚔️ Antonio Papadopolo Castellanos
 
